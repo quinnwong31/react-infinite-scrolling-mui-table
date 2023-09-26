@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+.table-header-row,
+.table-filter-row {
+  display: table;
+  table-layout: fixed;
+  /* width fixed by scrollbar width */
+  width: calc(100% - 15px);
+}
